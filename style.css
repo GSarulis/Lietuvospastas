@@ -1,0 +1,25 @@
+
+body, p, h1, h2{
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+
+.black-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 16px;
+    
+}
+
+.black-header a {
+    color: #ddd9d9;
+    margin: 0 12px;
+   }
+.black-header a:hover {
+    color: white;
+    transition: 500ms;
+}
